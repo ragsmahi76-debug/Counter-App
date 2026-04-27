@@ -1,1 +1,94 @@
-This is my new file     
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes App</title>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>Notes App</h1>
+
+    <!-- Search Bar -->
+    <input type="text" placeholder="Search bar">
+
+    <!-- Notes Container -->
+    <div>
+        <div>
+            <!-- Note 1 -->
+        </div>
+
+        <div>
+            <!-- Note 2 -->
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+<style>
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: linear-gradient(135deg, #667EEA, #764BA2);
+    color:black;
+    dispaly:flex;
+    text-align:center;
+    padding:150px;
+    margin-top: -50px;
+
+}
+
+.container1{
+    
+   background: linear-gradient(135deg, #0ab8c8, #b1316a);
+   border-radius: 100px;
+   padding:-50px;
+   margin-top: 60px;
+}
+
+
+
+.button {
+  background: #2563eb;
+  color: black;
+  background-color: #667EEA;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background:#fff;
+    color:#333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    cursor:text;
+    display:flex;
+    justify-content: center;
+    padding-left: 400px;
+    cursor:starting point;
+    align-items: center;
+} 
+
+
+<style>
